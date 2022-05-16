@@ -3,9 +3,9 @@ env:
 
 steps:
 - name: Checkout
-    uses: actions/checkout@v2
-    with:
-      repository:  sportsdataverse/cfbfastR-data
+  uses: actions/checkout@v2
+  with:
+    repository:  sportsdataverse/cfbfastR-data
 
 
 - name: Setup - gcloud / gsutil
