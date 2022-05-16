@@ -2,6 +2,7 @@ on:
   push:
     branches-ignore:
       - '**'
+  workflow_dispatch:
 
 env:
   GCS_BUCKET: ${{ secrets.GCS_CFB_PBP }}
